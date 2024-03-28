@@ -1,0 +1,52 @@
+@import '../../../sass/main.scss';
+
+.button {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+}
+
+.button--tabButton {
+    border-bottom: 4px solid rgba(0, 0, 0, 0.45);
+}
+
+.button--tabButton:hover {
+    color: $green;
+    border-bottom: 4px solid $green;
+}
+
+.button--selected {
+    color: $green;
+    border-bottom: 4px solid $green;
+}
+
+.button__submit {
+    display: flex;
+    justify-content: center;
+    background: rgba(30, 121, 88, 0.69);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.45);
+}
+
+.button__submit button {
+    box-sizing: border-box;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;   
+    font-size: 16px;
+    color: white;
+    width:100%;
+    padding: 13px;
+}
